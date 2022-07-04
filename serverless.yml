@@ -1,4 +1,5 @@
 service: my-service
+app: aws-python
 
 provider:
   name: aws

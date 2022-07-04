@@ -1,0 +1,1 @@
+(npm i -g serverless) -and (serverless --org=adamtpersonal --app=aws-python --name=aws-python --template=aws-python)
