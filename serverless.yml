@@ -1,0 +1,15 @@
+service: lambda-test
+
+provider:
+  name: aws
+  region: eu-west-2
+  runtime: python3.9
+
+functions:
+  hello:
+    handler: hello.say_hello
+    events:
+      - http:
+          path: hello/{message}
+          method: get
+          cors: true
